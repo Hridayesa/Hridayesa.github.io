@@ -1,28 +1,13 @@
-#Project Pages
+# Architect theme
 
-Project Pages is Jekyll Template specifically geared towards collaborative science. For more information, click [here](https://github.com/projectpages/project-pages/wiki/).
+This is the raw HTML and styles that are used for the *Architect* theme on [GitHub Pages](http://pages.github.com/).
 
-# Nav Bar Jumbles
+![](http://cl.ly/image/1x0Q3213330G/content)
 
-If you have seemingly random pages popping up on your Nav Bar recently, this is due to the fact that GitHub/Jekyll changed a fundemental rule they used to render pages. 
+# Using with Jekyll
 
-## CAUSE:
-It used to be that if a markdown file didn't have `---` frontmatter at the beginning, it wasn't rendered as a page. This was changed very recently (like in the last 2 days) so that every markdown file anywhere no matter what gets rendered as a page.  
+If you'd like to use this theme with Jekyll, Pietro Menna has put together a package to make it easy. You can find it at https://github.com/pietromenna/jekyll-architect-theme
 
-## FIX:
+# License
 
-1) Go to:
-
-`project-pages/plugin/markdown/` or `yourreponame/plugin/markdown/` and delete `example.html` and `example.md` files. This can be done graphically for the non-Git-savvy by simply going to your:
-
-GitHub account -> Your Profile -> Repositories -> Project-Pages/Your Repo -> Pluging -> Markdown 
-
-and clicking on the files, then clicking on the "thrash can / delete this file" icon on the top right corner of the file.
-
-2) You need to change the `LICENSES.md` at:
-
-GitHub account -> Your Profile -> Repositories -> Project-Pages/Your Repo
-
-to `License.md` by clicking on the file and changing the name.
-
-The fixes are already implemented here so new forks won't have a problem, and old forks should be able merge without conflict if they know how to.
+This work is licensed under a [Creative Commons Attribution 4.0 International](http://creativecommons.org/licenses/by/4.0/).
