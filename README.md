@@ -1,13 +1,28 @@
-# Architect theme
+# So Simple Theme
 
-This is the raw HTML and styles that are used for the *Architect* theme on [GitHub Pages](http://pages.github.com/).
+Looking for a simple, responsive, theme for your Jekyll powered blog? Well look no further. Here be **So Simple Theme**, the followup to [**Minimal Mistakes**](http://mmistakes.github.io/minimal-mistakes/) -- by designer slash illustrator [Michael Rose](http://mademistakes.com).
 
-![](http://cl.ly/image/1x0Q3213330G/content)
+## Notable features:
 
-# Using with Jekyll
+* Compatible with Jekyll 3 and GitHub Pages.
+* Responsive templates. Looks good on mobile, tablet, and desktop devices.
+* Gracefully degrading in older browsers. Compatible with Internet Explorer 9+ and all modern browsers.
+* Minimal embellishments and subtle animations.
+* Optional large feature images for posts and pages.
+* [Custom 404 page](http://mmistakes.github.io/so-simple-theme/404.html) to get you started.
+* Basic [search capabilities](https://github.com/mathaywarduk/jekyll-search)
+* Support for Disqus Comments
 
-If you'd like to use this theme with Jekyll, Pietro Menna has put together a package to make it easy. You can find it at https://github.com/pietromenna/jekyll-architect-theme
+![screenshot of So Simple Theme](http://mmistakes.github.io/so-simple-theme/images/so-simple-theme-preview.jpg)
 
-# License
+See a [live version of So Simple](http://mmistakes.github.io/so-simple-theme/) hosted on GitHub.
 
-This work is licensed under a [Creative Commons Attribution 4.0 International](http://creativecommons.org/licenses/by/4.0/).
+---
+
+## Getting Started
+
+So Simple takes advantage of Sass and data files to make customizing easier and requires Jekyll 3.x.
+
+To learn how to install and use this theme check out the [Setup Guide](http://mmistakes.github.io/so-simple-theme/theme-setup/) for more information.
+
+[![Bitdeli Badge](https://d2weczhvl823v0.cloudfront.net/mmistakes/so-simple-theme/trend.png)](https://bitdeli.com/free "Bitdeli Badge")
