@@ -248,6 +248,9 @@ collections:
   jekylls:
     output: true
     permalink: /:collection/:name
+  angular:
+    output: true
+    permalink: /:collection/:name
 
 # Defaults
 defaults:
@@ -257,7 +260,7 @@ defaults:
       type: posts
     values:
       layout: single
-      author_profile: true
+      author_profile: false
       read_time: true
       comments: # true
       share: true
@@ -268,6 +271,14 @@ defaults:
       type: jekylls
     values:
       layout: single
-      author_profile: true
+      author_profile: false
+      share: true
+      comments: true      
+  - scope:
+      path: ""
+      type: angular
+    values:
+      layout: single
+      author_profile: false
       share: true
       comments: true      
