@@ -241,6 +241,13 @@ compress_html:
   ignore:
     envs: development
 
+#Collections
+#collections_dir: my_collections
+
+collections:
+  jekylls:
+    output: true
+    permalink: /:collection/:name
 
 # Defaults
 defaults:
@@ -255,3 +262,12 @@ defaults:
       comments: # true
       share: true
       related: true
+  # _recipes
+  - scope:
+      path: ""
+      type: jekylls
+    values:
+      layout: single
+      author_profile: true
+      share: true
+      comments: true      
