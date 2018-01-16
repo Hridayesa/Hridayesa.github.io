@@ -5,6 +5,7 @@ excerpt: "Шпаргалки, документация, примеры, стат
 
 ## Angular. Документация
 * [Официальная документация](https://angular.io/guide/architecture)
+* [Angular Cli](https://github.com/angular/angular-cli/wiki)
 
 ## Компоненты
 * [Clarity Design System](https://vmware.github.io/clarity/)
