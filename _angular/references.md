@@ -11,3 +11,5 @@ excerpt: "Шпаргалки, документация, примеры, стат
 * [Clarity Design System](https://vmware.github.io/clarity/)
 * [Devextreme](https://js.devexpress.com/Demos/WidgetsGallery/)
 
+## RXJS. Observable.
+* [Официальная документация] http://reactivex.io/rxjs/manual/index.html
