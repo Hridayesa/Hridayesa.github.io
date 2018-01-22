@@ -12,4 +12,4 @@ excerpt: "Шпаргалки, документация, примеры, стат
 * [Devextreme](https://js.devexpress.com/Demos/WidgetsGallery/)
 
 ## RXJS. Observable.
-* [Официальная документация] http://reactivex.io/rxjs/manual/index.html
+* [Официальная документация](http://reactivex.io/rxjs/manual/index.html)
