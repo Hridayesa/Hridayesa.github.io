@@ -26,15 +26,15 @@ title: "Авторизация в Angular"
 **app.component.ts**
 ``` javascript
 ...
-// инжектим сервис
+// инжектим сервис предоставляемый фреймворком
 constructor(private permissionsService: NgxPermissionsService,
 ...) {
 ...
 }
  
- 
 ...
 ngOnInit(): void {
+// authService.getPermissions() - какой-то ваш сервисный метод, например rest запрос на backend
     this.authService.getPermissions().subscribe(permissions =>{
 // загружаем масив разрешений, актуальный для данного пользователя
         this.permissionsService.loadPermissions(permissions);
