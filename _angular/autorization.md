@@ -36,8 +36,8 @@ constructor(private permissionsService: NgxPermissionsService,
 ngOnInit(): void {
 // authService.getPermissions() - какой-то ваш сервисный метод, 
 // например rest запрос на backend
-        this.authService.getPermissions().subscribe(permissions =>{
-
+    this.authService.getPermissions().subscribe(permissions =>
+    {
 // загружаем масив разрешений, актуальный для данного пользователя
         this.permissionsService.loadPermissions(permissions);
     });
