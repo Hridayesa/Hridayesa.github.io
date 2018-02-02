@@ -5,13 +5,17 @@ title: "Jekyll. Локальная отладка"
 
 ## Установка Jekyll
 
-> Чисто из сооброжений простоты установки рекомендуется использовать unix или mac.
+> Чисто из соображений простоты установки рекомендуется использовать unix или mac.
 >
 > Если у вас windows, то можно воспользоватся виртуальной машиной с linux. Например [VirtualBox](https://www.virtualbox.org/)
 
 ### Установка Jekyll на unix
 
+(https://jekyllrb.com/docs/installation/)
+
 ### Установка Jekyll на windous
+
+(https://jekyllrb.com/docs/windows/)
 
 ## Компиляция и запуск
 
