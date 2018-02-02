@@ -11,11 +11,11 @@ title: "Jekyll. Локальная отладка"
 
 ### Установка Jekyll на unix
 
-(https://jekyllrb.com/docs/installation/)
+[https://jekyllrb.com/docs/installation](https://jekyllrb.com/docs/installation/)
 
 ### Установка Jekyll на windous
 
-(https://jekyllrb.com/docs/windows/)
+[https://jekyllrb.com/docs/windows](https://jekyllrb.com/docs/windows/)
 
 ## Компиляция и запуск
 
