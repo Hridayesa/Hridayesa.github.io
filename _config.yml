@@ -251,6 +251,9 @@ collections:
   angular:
     output: true
     permalink: /:collection/:name
+  spring:
+    output: true
+    permalink: /:collection/:name
 
 # Defaults
 defaults:
@@ -277,6 +280,14 @@ defaults:
   - scope:
       path: ""
       type: angular
+    values:
+      layout: single
+      author_profile: false
+      share: true
+      comments: true      
+  - scope:
+      path: ""
+      type: spring
     values:
       layout: single
       author_profile: false
